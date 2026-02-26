@@ -21,7 +21,7 @@ namespace Thesis.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "BreadResultsJson",
                 table: "DetectionLogs",
-                type: "nvarchar(max)",
+                type: "text",
                 nullable: false,
                 defaultValue: "");
         }

@@ -19,7 +19,7 @@ namespace Thesis.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     MoldProbability = table.Column<double>(type: "float", nullable: false),
                     IsMoldDetected = table.Column<bool>(type: "bit", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImageUrl = table.Column<string>(type: "text", nullable: true),
                     Timestamp = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
