@@ -6,9 +6,8 @@ using Scalar.AspNetCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // -----------------------------
-// Services
+// Controllers + JSON options
 // -----------------------------
-
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -16,17 +15,28 @@ builder.Services.AddControllers()
             System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault;
     });
 
-// PostgreSQL DbContext
-builder.Services.AddDbContext<BreadDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+// -----------------------------
+// PostgreSQL DbContext (Railway Safe)
+// -----------------------------
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+// Ensure we ignore DATABASE_URL; use only DefaultConnection
+builder.Services.AddDbContext<BreadDbContext>(options =>
+    options.UseNpgsql(connectionString));
+
+// -----------------------------
 // SignalR
+// -----------------------------
 builder.Services.AddSignalR();
 
+// -----------------------------
 // Scalar / OpenAPI
+// -----------------------------
 builder.Services.AddOpenApi();
 
-// CORS (allow from anywhere for testing)
+// -----------------------------
+// CORS (for MAUI client)
+// -----------------------------
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -40,29 +50,28 @@ builder.Services.AddCors(options =>
 // -----------------------------
 // Build App
 // -----------------------------
-
 var app = builder.Build();
 
 // -----------------------------
-// Auto-apply EF Migrations (Railway Friendly)
+// Auto Apply EF Migrations
 // -----------------------------
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<BreadDbContext>();
     try
     {
-        db.Database.Migrate(); // Creates tables if they don't exist
+        db.Database.Migrate();
         Console.WriteLine("Database migration applied successfully.");
     }
     catch (Exception ex)
     {
         Console.WriteLine("Database migration failed: " + ex.Message);
-        throw;
+        throw; // Stops app if DB cannot connect
     }
 }
 
 // -----------------------------
-// HTTP Pipeline
+// HTTP Request Pipeline
 // -----------------------------
 if (app.Environment.IsDevelopment())
 {
@@ -74,7 +83,11 @@ app.UseCors();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 
+// Controllers
 app.MapControllers();
+
+// SignalR Hub
 app.MapHub<AlertHub>("/alerthub");
 
+// Run App
 app.Run();
