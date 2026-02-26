@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Raven\\source\\repos\\Thesis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260226205628_postgresmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260226205628_postgresmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\models\\detectionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:models\\detectionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\controllers\\detectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:controllers\\detectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\models\\sensorreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:models\\sensorreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -29,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\controllers\\detectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:controllers\\detectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\models\\detectionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:models\\detectionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\thesis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:thesis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\models\\sensorreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:models\\sensorreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,82 +75,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20260223201637_ThreeBreadsDetection.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "RelativeToolTip": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Title": "20260226205628_PostgresMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226205628_PostgresMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260226205628_PostgresMigration.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226205628_PostgresMigration.cs",
+              "RelativeToolTip": "Migrations\\20260226205628_PostgresMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:17:04.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260223183649_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260223183649_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260223183649_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:16:16.559Z",
+              "WhenOpened": "2026-02-26T20:56:58.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T20:44:50.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T18:21:42.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20260226162546_ForThesisDoployment.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226162546_ForThesisDoployment.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260226162546_ForThesisDoployment.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226162546_ForThesisDoployment.cs",
-              "RelativeToolTip": "Migrations\\20260226162546_ForThesisDoployment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:22:27.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BreadDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\BreadDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\BreadDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\BreadDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\BreadDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:17:57.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "DetectionController.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\DetectionController.cs",
               "RelativeDocumentMoniker": "Controllers\\DetectionController.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\DetectionController.cs",
               "RelativeToolTip": "Controllers\\DetectionController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:39:51.944Z"
+              "WhenOpened": "2026-02-23T18:39:51.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetectionLog.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
+              "RelativeDocumentMoniker": "Models\\DetectionLog.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
+              "RelativeToolTip": "Models\\DetectionLog.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:16:50.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SensorReading.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\SensorReading.cs",
+              "RelativeDocumentMoniker": "Models\\SensorReading.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\SensorReading.cs",
+              "RelativeToolTip": "Models\\SensorReading.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:14:36.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -171,18 +165,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DetectionLog.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
-              "RelativeDocumentMoniker": "Models\\DetectionLog.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
-              "RelativeToolTip": "Models\\DetectionLog.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:16:50.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "SensorController.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\SensorController.cs",
               "RelativeDocumentMoniker": "Controllers\\SensorController.cs",
@@ -194,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BreadDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Data\\BreadDbContext.cs",
               "RelativeDocumentMoniker": "Data\\BreadDbContext.cs",
@@ -206,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -218,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Thesis.csproj",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Thesis.csproj",
               "RelativeDocumentMoniker": "Thesis.csproj",
@@ -230,19 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SensorReading.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\SensorReading.cs",
-              "RelativeDocumentMoniker": "Models\\SensorReading.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\SensorReading.cs",
-              "RelativeToolTip": "Models\\SensorReading.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:14:36.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "AlertHub.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Hubs\\AlertHub.cs",
               "RelativeDocumentMoniker": "Hubs\\AlertHub.cs",

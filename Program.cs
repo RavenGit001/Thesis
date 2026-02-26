@@ -16,6 +16,7 @@ builder.Services.AddControllers()
 // PostgreSQL DbContext (Railway Safe)
 // -----------------------------
 
+
 var defaultConnection = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection")
     ?? builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -24,7 +25,12 @@ builder.Services.AddDbContext<BreadDbContext>(options =>
   options.UseNpgsql(defaultConnection);
 });
 
+/*
+ * builder.Services.AddDbContext<BreadDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+*/
 
+builder.Services.AddControllers();
 builder.Services.AddSignalR();
 builder.Services.AddOpenApi();
 builder.Services.AddCors(options =>

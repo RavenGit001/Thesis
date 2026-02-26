@@ -12,8 +12,8 @@ using Thesis.Data;
 namespace Thesis.Migrations
 {
     [DbContext(typeof(BreadDbContext))]
-    [Migration("20260226201212_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260226205628_PostgresMigration")]
+    partial class PostgresMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

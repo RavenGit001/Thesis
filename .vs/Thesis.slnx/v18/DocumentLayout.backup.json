@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Raven\\source\\repos\\Thesis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,20 +82,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260223201637_ThreeBreadsDetection.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
+              "RelativeToolTip": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T19:17:04.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20260223183649_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260223183649_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260223183649_InitialCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T19:16:16.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T18:21:42.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20260226162546_ForThesisDoployment.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226162546_ForThesisDoployment.cs",
               "RelativeDocumentMoniker": "Migrations\\20260226162546_ForThesisDoployment.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226162546_ForThesisDoployment.cs",
               "RelativeToolTip": "Migrations\\20260226162546_ForThesisDoployment.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T19:22:27.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BreadDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\BreadDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\BreadDbContextModelSnapshot.cs",
@@ -104,32 +143,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T19:17:57.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20260223201637_ThreeBreadsDetection.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "RelativeToolTip": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:17:04.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260223183649_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260223183649_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260223183649_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:16:16.559Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,18 +155,6 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T18:39:51.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAF8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:21:42.689Z"
             },
             {
               "$type": "Document",
