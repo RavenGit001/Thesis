@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "Thesis.Controllers.DetectionController",
+    "Method": "PostMultiDetection",
+    "RelativePath": "api/Detection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "Thesis.Models.DetectionLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Thesis.Controllers.DetectionController",
+    "Method": "GetDetectionHistory",
+    "RelativePath": "api/Detection/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Thesis.Controllers.DetectionController",
+    "Method": "GetLatestDetection",
+    "RelativePath": "api/Detection/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Thesis.Controllers.SensorController",
+    "Method": "PostReading",
+    "RelativePath": "api/Sensor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reading",
+        "Type": "Thesis.Models.SensorReading",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Thesis.Controllers.SensorController",
+    "Method": "GetLatestReading",
+    "RelativePath": "api/Sensor/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
