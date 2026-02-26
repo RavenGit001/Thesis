@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Raven\\source\\repos\\Thesis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\controllers\\detectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:controllers\\detectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:models\\detectionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\data\\breaddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,68 +66,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DetectionController.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\DetectionController.cs",
               "RelativeDocumentMoniker": "Controllers\\DetectionController.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\DetectionController.cs",
               "RelativeToolTip": "Controllers\\DetectionController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:39:51.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:39:51.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Thesis.csproj",
-              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Thesis.csproj",
-              "RelativeDocumentMoniker": "Thesis.csproj",
-              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Thesis.csproj",
-              "RelativeToolTip": "Thesis.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-23T18:26:34.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:21:42.689Z"
+              "WhenOpened": "2026-02-23T18:21:42.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-23T18:19:43.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DetectionLog.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
               "RelativeDocumentMoniker": "Models\\DetectionLog.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
               "RelativeToolTip": "Models\\DetectionLog.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T18:16:50.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SensorController.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\SensorController.cs",
               "RelativeDocumentMoniker": "Controllers\\SensorController.cs",
@@ -151,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -160,6 +148,18 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-23T19:23:45.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Thesis.csproj",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Thesis.csproj",
+              "RelativeDocumentMoniker": "Thesis.csproj",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Thesis.csproj",
+              "RelativeToolTip": "Thesis.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T18:26:34.34Z"
             },
             {
               "$type": "Document",

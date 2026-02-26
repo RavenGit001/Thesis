@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Raven\\source\\repos\\Thesis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,31 +74,30 @@
               "RelativeToolTip": "Controllers\\DetectionController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:39:51.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:39:51.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T18:21:42.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAC+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-23T18:19:43.753Z",
               "EditorCaption": ""
@@ -113,8 +112,7 @@
               "RelativeToolTip": "Models\\DetectionLog.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:16:50.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:16:50.095Z"
             },
             {
               "$type": "Document",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "Controllers\\SensorController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAawBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:14:31.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:14:31.187Z"
             },
             {
               "$type": "Document",
@@ -139,8 +136,7 @@
               "RelativeToolTip": "Data\\BreadDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:17:53.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:17:53.356Z"
             },
             {
               "$type": "Document",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-23T19:23:45.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T19:23:45.576Z"
             },
             {
               "$type": "Document",
@@ -165,8 +160,7 @@
               "RelativeToolTip": "Thesis.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-23T18:26:34.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:26:34.34Z"
             },
             {
               "$type": "Document",
@@ -178,8 +172,7 @@
               "RelativeToolTip": "Models\\SensorReading.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:14:36.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:14:36.596Z"
             },
             {
               "$type": "Document",
@@ -191,8 +184,7 @@
               "RelativeToolTip": "Hubs\\AlertHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:28:10.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:28:10.093Z"
             }
           ]
         }
