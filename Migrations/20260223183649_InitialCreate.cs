@@ -20,7 +20,7 @@ namespace Thesis.Migrations
                     MoldProbability = table.Column<double>(type: "float", nullable: false),
                     IsMoldDetected = table.Column<bool>(type: "bit", nullable: false),
                     ImageUrl = table.Column<string>(type: "text", nullable: true),
-                    Timestamp = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Timestamp = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
                 {
