@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Raven\\source\\repos\\Thesis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223183649_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260226162546_forthesisdoployment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|solutionrelative:migrations\\20260223201637_threebreadsdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBFBD302-88A4-0E3D-88DC-96313B348CD6}|Thesis.csproj|c:\\users\\raven\\source\\repos\\thesis\\migrations\\breaddbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "20260226162546_ForThesisDoployment.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226162546_ForThesisDoployment.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260226162546_ForThesisDoployment.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260226162546_ForThesisDoployment.cs",
+              "RelativeToolTip": "Migrations\\20260226162546_ForThesisDoployment.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T19:22:27.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BreadDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\BreadDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\BreadDbContextModelSnapshot.cs",
@@ -86,38 +103,37 @@
               "RelativeToolTip": "Migrations\\BreadDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:17:57.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T19:17:57.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "20260223201637_ThreeBreadsDetection.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
               "RelativeDocumentMoniker": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223201637_ThreeBreadsDetection.cs",
               "RelativeToolTip": "Migrations\\20260223201637_ThreeBreadsDetection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T19:17:04.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "20260223183649_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260223183649_InitialCreate.cs",
               "ToolTip": "C:\\Users\\Raven\\source\\repos\\Thesis\\Migrations\\20260223183649_InitialCreate.cs",
               "RelativeToolTip": "Migrations\\20260223183649_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T19:16:16.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DetectionController.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\DetectionController.cs",
               "RelativeDocumentMoniker": "Controllers\\DetectionController.cs",
@@ -129,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -137,12 +153,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAF8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T18:21:42.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T18:21:42.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -154,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DetectionLog.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\DetectionLog.cs",
               "RelativeDocumentMoniker": "Models\\DetectionLog.cs",
@@ -166,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SensorController.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Controllers\\SensorController.cs",
               "RelativeDocumentMoniker": "Controllers\\SensorController.cs",
@@ -178,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BreadDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Data\\BreadDbContext.cs",
               "RelativeDocumentMoniker": "Data\\BreadDbContext.cs",
@@ -190,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -202,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Thesis.csproj",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Thesis.csproj",
               "RelativeDocumentMoniker": "Thesis.csproj",
@@ -214,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SensorReading.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Models\\SensorReading.cs",
               "RelativeDocumentMoniker": "Models\\SensorReading.cs",
@@ -226,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AlertHub.cs",
               "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\Thesis\\Hubs\\AlertHub.cs",
               "RelativeDocumentMoniker": "Hubs\\AlertHub.cs",

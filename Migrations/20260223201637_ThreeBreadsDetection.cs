@@ -4,10 +4,8 @@
 
 namespace Thesis.Migrations
 {
-    /// <inheritdoc />
     public partial class ThreeBreadsDetection : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
@@ -26,7 +24,6 @@ namespace Thesis.Migrations
                 defaultValue: "");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
@@ -36,14 +33,14 @@ namespace Thesis.Migrations
             migrationBuilder.AddColumn<bool>(
                 name: "IsMoldDetected",
                 table: "DetectionLogs",
-                type: "bit",
+                type: "boolean",    // <- changed from "bit"
                 nullable: false,
                 defaultValue: false);
 
             migrationBuilder.AddColumn<double>(
                 name: "MoldProbability",
                 table: "DetectionLogs",
-                type: "float",
+                type: "double precision",  // <- changed from "float"
                 nullable: false,
                 defaultValue: 0.0);
         }

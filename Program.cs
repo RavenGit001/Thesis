@@ -18,14 +18,18 @@ builder.Services.AddControllers()
 // -----------------------------
 // PostgreSQL DbContext (Railway Safe)
 // -----------------------------
-// Read DefaultConnection from environment variable first, fallback to appsettings.json
+//Read DefaultConnection from environment variable first, fallback to appsettings.json
 var defaultConnection = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection")
-                        ?? builder.Configuration.GetConnectionString("DefaultConnection");
+    ?? builder.Configuration.GetConnectionString("DefaultConnection");
+
+
 
 builder.Services.AddDbContext<BreadDbContext>(options =>
 {
-    options.UseNpgsql(defaultConnection);
+  options.UseNpgsql(defaultConnection);
 });
+
+
 
 // -----------------------------
 // SignalR

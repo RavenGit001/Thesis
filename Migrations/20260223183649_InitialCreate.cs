@@ -1,41 +1,41 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace Thesis.Migrations
 {
-    /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialCreatePostgres : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            // DetectionLogs table
             migrationBuilder.CreateTable(
                 name: "DetectionLogs",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    MoldProbability = table.Column<double>(type: "float", nullable: false),
-                    IsMoldDetected = table.Column<bool>(type: "bit", nullable: false),
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     ImageUrl = table.Column<string>(type: "text", nullable: true),
-                    Timestamp = table.Column<DateTime>(type: "datetime", nullable: false)
+                    Timestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    BreadResultsJson = table.Column<string>(type: "text", nullable: false, defaultValue: "")
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_DetectionLogs", x => x.Id);
                 });
 
+            // SensorReadings table
             migrationBuilder.CreateTable(
                 name: "SensorReadings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Temperature = table.Column<double>(type: "float", nullable: false),
-                    Humidity = table.Column<double>(type: "float", nullable: false),
-                    Timestamp = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Temperature = table.Column<double>(type: "double precision", nullable: false),
+                    Humidity = table.Column<double>(type: "double precision", nullable: false),
+                    Timestamp = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -43,7 +43,6 @@ namespace Thesis.Migrations
                 });
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
