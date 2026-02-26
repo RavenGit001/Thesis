@@ -18,11 +18,14 @@ builder.Services.AddControllers()
 // -----------------------------
 // PostgreSQL DbContext (Railway Safe)
 // -----------------------------
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+// Read DefaultConnection from environment variable first, fallback to appsettings.json
+var defaultConnection = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection")
+                        ?? builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Ensure we ignore DATABASE_URL; use only DefaultConnection
 builder.Services.AddDbContext<BreadDbContext>(options =>
-    options.UseNpgsql(connectionString));
+{
+    options.UseNpgsql(defaultConnection);
+});
 
 // -----------------------------
 // SignalR
@@ -36,7 +39,7 @@ builder.Services.AddOpenApi();
 
 // -----------------------------
 // CORS (for MAUI client)
-// -----------------------------
+/// -----------------------------
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
