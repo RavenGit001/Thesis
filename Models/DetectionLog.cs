@@ -1,4 +1,6 @@
 ﻿using System.Text.Json;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Thesis.Models
 {
@@ -11,19 +13,25 @@ namespace Thesis.Models
 
     public class DetectionLog
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+
+        [Column(TypeName = "text")] // PostgreSQL text type
         public string BreadResultsJson { get; set; } = "{}"; // Store as JSON string
+
+        [Column(TypeName = "text")] // PostgreSQL text type
         public string? ImageUrl { get; set; }
-        public DateTime Timestamp { get; set; } = DateTime.Now;
 
-        public List<BreadDetection> GetBreadResults()
-        {
-            return JsonSerializer.Deserialize<List<BreadDetection>>(BreadResultsJson) ?? new List<BreadDetection>();
-        }
+        [Column(TypeName = "timestamp with time zone")] // PostgreSQL timestamp with timezone
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 
-        public void SetBreadResults(List<BreadDetection> results)
+        // Helper methods for JSON serialization/deserialization
+        [NotMapped]
+        public List<BreadDetection> BreadResults
         {
-            BreadResultsJson = JsonSerializer.Serialize(results);
+            get => JsonSerializer.Deserialize<List<BreadDetection>>(BreadResultsJson) ?? new List<BreadDetection>();
+            set => BreadResultsJson = JsonSerializer.Serialize(value);
         }
     }
 }

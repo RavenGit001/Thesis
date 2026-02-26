@@ -5,9 +5,6 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// -----------------------------
-// Controllers + JSON options
-// -----------------------------
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -18,11 +15,9 @@ builder.Services.AddControllers()
 // -----------------------------
 // PostgreSQL DbContext (Railway Safe)
 // -----------------------------
-//Read DefaultConnection from environment variable first, fallback to appsettings.json
+
 var defaultConnection = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection")
     ?? builder.Configuration.GetConnectionString("DefaultConnection");
-
-
 
 builder.Services.AddDbContext<BreadDbContext>(options =>
 {
@@ -30,20 +25,8 @@ builder.Services.AddDbContext<BreadDbContext>(options =>
 });
 
 
-
-// -----------------------------
-// SignalR
-// -----------------------------
 builder.Services.AddSignalR();
-
-// -----------------------------
-// Scalar / OpenAPI
-// -----------------------------
 builder.Services.AddOpenApi();
-
-// -----------------------------
-// CORS (for MAUI client)
-/// -----------------------------
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -54,9 +37,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// -----------------------------
-// Build App
-// -----------------------------
+
 var app = builder.Build();
 
 // -----------------------------
@@ -77,9 +58,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// -----------------------------
-// HTTP Request Pipeline
-// -----------------------------
+
 if (app.Environment.IsDevelopment())
 {
     app.MapScalarApiReference();
@@ -89,12 +68,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors();
 app.UseHttpsRedirection();
 app.UseAuthorization();
-
-// Controllers
 app.MapControllers();
-
-// SignalR Hub
 app.MapHub<AlertHub>("/alerthub");
-
-// Run App
 app.Run();
