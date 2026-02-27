@@ -32,7 +32,7 @@ namespace Thesis.Controllers
                 .FirstOrDefaultAsync();
 
             if (latest == null)
-                return NotFound();
+                return Ok(null);
 
             return Ok(latest);
         }
